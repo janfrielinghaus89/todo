@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "ToDo Manager";
+    Layout = "_Layout";
+}
+
+<h1 class="todo-head">Deine persönliche ToDo-Liste</h1>
+
+<div class="todo-form-tile">
+    <h1>Neues ToDo anlegen</h1>
+    <form method="post">
+        <div class="todo-form-group">
+            <label for="Title">Titel</label><br />
+            <input type="text" asp-for="Title" placeholder="Titel" />
+        </div>
+        <div class="todo-form-group">
+            <label for="Content">Beschreibung</label><br />
+            <textarea asp-for="Content" rows="5"></textarea>
+        </div>
+        <div class="todo-form-group">
+            <label for="TagsString">Tags (mit Komma trennen)</label><br />
+            <input type="text" asp-for="TagsString" title="Beispiel: Auto,Kfz,Werkstatt" placeholder="Tags, nur mit Komma getrennt" />
+        </div>
+        <button type="submit">ToDo speichern</button>
+    </form>
+</div>
+
+<hr class="todo-separator" />
+
+<h1 class="todo-head">Aktuelle ToDo's</h1>
+    
+<div class="grid">
+    @foreach (var category in Model.AllCategories)
+    {
+        <div class="box">
+            <h2>@category.Name</h2>
+            <div class="todo-container">
+                @foreach (var toDo in Model.AllToDoPosts.Where(post => post.CategoryId == category.Id))
+                {
+                    <div class="todo-tile">
+                        <img src="@Model.getCategoryImage(category.Name)" class="category-logo" alt="Logo for @category.Name">
+                        <h1 class="todo-title-header">@toDo.Title</h1>
+                        <ul>
+                            <li>@toDo.Content</li>
+                            <li>Tags:</li>
+                            <ul>
+                                @foreach (var tag in toDo.Tags)
+                                {
+                                    <li>@tag</li>
+                                }
+                            </ul>
+                            <li>@toDo.CreateDate</li>
+                        </ul>
+                        <a asp-page="./Details" asp-route-id="@toDo.Id"><button class="todo-detail-button">Details</button></a>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

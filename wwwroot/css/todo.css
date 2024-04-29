@@ -1,0 +1,148 @@
+﻿body {
+}
+
+.todo-head {
+    font-size: 32px;
+    color: black;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.todo-form-tile {
+    background-color: #C0C6D2;
+    margin: 3px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.todo-form-tile button {
+    width: calc(100% - 40px);
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ecf7e8;
+    margin: 0 20px;
+}
+
+.todo-form-tile button:hover {
+    background-color: white;
+}
+
+.todo-form-group {
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+}
+
+.todo-form-group label,
+.todo-form-group input[type="text"],
+.todo-form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.todo-form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.todo-form-group input[type="text"],
+.todo-form-group textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.todo-form-tile h1 {
+    font-size: 22px;
+}
+
+.todo-separator {
+    border: none;
+    height: 10px;
+    background-color: black;
+    margin: 25px 0;
+}
+
+.todo-title-header {
+    font-size: 18px;
+}
+
+.todo-tile {
+    position: relative;
+    background-color: #F3D9DD;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.todo-tile:hover {
+    background-color: #FFD9E6;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.todo-detail-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #88C0D0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-detail-button:hover {
+    background-color: #81A1C1;
+}
+
+.todo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    width: max-content;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.category-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    max-height: 50%;
+    opacity: 0.2;
+}
+
+

@@ -1,0 +1,16 @@
+﻿@page
+@model DetailsModel
+@{
+    ViewData["Title"] = "ToDo Manager";
+    Layout = "_Layout";
+}
+
+@if (Model.toDoToShow != null)
+{
+    <h1>@Model.toDoToShow.Id</h1>
+    <h1>@Model.toDoToShow.Title</h1>
+}
+else
+{
+    <p>ToDo nicht gefunden.</p>
+}
