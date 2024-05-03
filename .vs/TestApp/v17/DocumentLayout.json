@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\wwwroot\\css\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:wwwroot\\css\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\data\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:data\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\models\\todopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:models\\todopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +27,24 @@
       "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\data\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:data\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\models\\todopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:models\\todopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|E:\\Programming\\C#\\TestApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CAC5DE-89DD-4EC0-87D3-22AA42AF4FBB}|TestApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Pages\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Details.cshtml.cs",
@@ -66,59 +66,51 @@
               "RelativeToolTip": "Pages\\Details.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T12:47:32.289Z"
+              "WhenOpened": "2024-04-27T12:47:32.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Pages\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Details.cshtml",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Pages\\Details.cshtml",
               "RelativeToolTip": "Pages\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T12:47:04.536Z"
+              "WhenOpened": "2024-04-27T12:47:04.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:01:47.133Z"
+              "WhenOpened": "2024-04-27T11:01:47.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationManager.cs",
-              "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Data\\ApplicationManager.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationManager.cs",
-              "ToolTip": "E:\\Programming\\C#\\TestApp\\Data\\ApplicationManager.cs",
-              "RelativeToolTip": "Data\\ApplicationManager.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAqwD0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:23:35.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "ToDoPost.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Models\\ToDoPost.cs",
               "RelativeDocumentMoniker": "Models\\ToDoPost.cs",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Models\\ToDoPost.cs",
               "RelativeToolTip": "Models\\ToDoPost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:45:14.065Z"
+              "WhenOpened": "2024-04-25T17:45:14.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
@@ -126,19 +118,34 @@
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T14:45:38.147Z"
+              "WhenOpened": "2024-04-25T14:45:38.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "todo.css",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\wwwroot\\css\\todo.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\todo.css",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\wwwroot\\css\\todo.css",
               "RelativeToolTip": "wwwroot\\css\\todo.css",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIAAAAAbAAAA",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAmwDwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-24T19:53:55.202Z"
+              "WhenOpened": "2024-04-24T19:53:55.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationManager.cs",
+              "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Data\\ApplicationManager.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationManager.cs",
+              "ToolTip": "E:\\Programming\\C#\\TestApp\\Data\\ApplicationManager.cs",
+              "RelativeToolTip": "Data\\ApplicationManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T08:23:35.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -148,22 +155,23 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADoAAAAOAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-20T13:24:48.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAIwC4AAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T18:59:27.891Z"
+              "WhenOpened": "2024-04-24T18:59:27.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -173,13 +181,14 @@
               "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
               "ToolTip": "E:\\Programming\\C#\\TestApp\\Controllers\\ApplicationController.cs",
               "RelativeToolTip": "Controllers\\ApplicationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T18:55:21.696Z"
+              "WhenOpened": "2024-04-24T18:55:21.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Programming\\C#\\TestApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

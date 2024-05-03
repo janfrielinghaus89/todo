@@ -5,31 +5,51 @@
     Layout = "_Layout";
 }
 
+<!-- Überschrift -->
+<hr class="todo-separator" />
+
 <h1 class="todo-head">Deine persönliche ToDo-Liste</h1>
 
+<hr class="todo-separator" />
+
+<!-- Formular zum Anlegen eines neuen ToDo's -->
 <div class="todo-form-tile">
     <h1>Neues ToDo anlegen</h1>
     <form method="post">
         <div class="todo-form-group">
-            <label for="Title">Titel</label><br />
+            <label for="Title">Titel</label>
             <input type="text" asp-for="Title" placeholder="Titel" />
         </div>
         <div class="todo-form-group">
-            <label for="Content">Beschreibung</label><br />
+            <label for="Content">Beschreibung</label>
             <textarea asp-for="Content" rows="5"></textarea>
         </div>
         <div class="todo-form-group">
-            <label for="TagsString">Tags (mit Komma trennen)</label><br />
+            <label for="TagsString">Tags (mit Komma trennen)</label>
             <input type="text" asp-for="TagsString" title="Beispiel: Auto,Kfz,Werkstatt" placeholder="Tags, nur mit Komma getrennt" />
+        </div>
+        <div class="todo-form-group">
+            <label for="CategoryName">Kategorie</label>
+            <select asp-for="CategoryName">
+                <option value="">-- Bitte wählen --</option>
+                @foreach (var category in Model.AllCategories)
+                {
+                    <option value="@category.Name">@category.Name</option>
+                }
+            </select>
         </div>
         <button type="submit">ToDo speichern</button>
     </form>
 </div>
 
+<!-- Überschrift aktuelle ToDo's -->
 <hr class="todo-separator" />
 
 <h1 class="todo-head">Aktuelle ToDo's</h1>
+
+<hr class="todo-separator" />
     
+<!-- Anzeige aktueller ToDo's -->
 <div class="grid">
     @foreach (var category in Model.AllCategories)
     {

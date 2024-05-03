@@ -28,5 +28,6 @@ namespace TestApp.Controllers
 			var allCategories = _manager.GetAllCategories();
 			return Ok(allCategories);
 		}
+
 	}
 }

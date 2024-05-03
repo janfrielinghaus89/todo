@@ -5,12 +5,19 @@
     Layout = "_Layout";
 }
 
+
 @if (Model.toDoToShow != null)
 {
-    <h1>@Model.toDoToShow.Id</h1>
-    <h1>@Model.toDoToShow.Title</h1>
+    <div class="todo-detail-header">
+        <h1>@Model.toDoToShow.Title</h1>
+    </div>
+
+    <div class="todo-detail-content">
+        @Model.toDoToShow.Content
+    </div>
 }
 else
 {
     <p>ToDo nicht gefunden.</p>
 }
+

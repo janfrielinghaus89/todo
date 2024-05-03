@@ -32,8 +32,16 @@ namespace TestApp.Data
 			return _context.ToDoPosts.Where(post => post.CategoryId == categorieId).ToList();
 		}
 
-		// Abrufen einzelner Posts anhand der ID
-		public ToDoPost GetToDoPostById(int id)
+        // Abrufen der ID für eine Kategorie
+        public int GetCategoryByName(string name)
+        {
+            var category = _context.Categories.FirstOrDefault(cat => cat.Name == name);
+            return category != null ? category.Id : 0;
+        }
+
+
+        // Abrufen einzelner Posts anhand der ID
+        public ToDoPost GetToDoPostById(int id)
 		{
 			return _context.ToDoPosts.FirstOrDefault(post => post.Id == id);
 		}

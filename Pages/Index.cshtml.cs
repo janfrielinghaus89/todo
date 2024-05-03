@@ -16,6 +16,8 @@ namespace TestApp.Pages
         public string Content { get; set; }
         [BindProperty]
         public string TagsString { get; set; }
+        [BindProperty]
+        public string CategoryName { get; set; }
 
         public IndexModel(ApplicationManager manager)
         {
@@ -27,16 +29,36 @@ namespace TestApp.Pages
 
         public void OnGet()
         {
-            AllToDoPosts = _manager.GetAllToDoPosts();
-            AllCategories = _manager.GetAllCategories();
+            try
+            {
+                AllToDoPosts = _manager.GetAllToDoPosts();
+                AllCategories = _manager.GetAllCategories();
+
+                if (AllCategories == null)
+                {
+                    ViewData["ErrorMessage"] = "Fehler beim Laden der Kategorien";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                ViewData["ErrorMessage"] = "Ein unerwarteter Fehler ist aufgetreten";
+            }
         }
 
-        
+
         public async Task<IActionResult> OnPostAsync()
         {
+            if (string.IsNullOrEmpty(CategoryName))
+            {
+                ModelState.AddModelError("CategoryName", "Bitte wählen Sie eine Kategorie aus.");
+                return Page();
+            }
+
             var newToDo = new ToDoPost
             {
                 Title = this.Title,
+                CategoryId = _manager.GetCategoryByName(this.CategoryName),
                 Content = this.Content,
                 CreateDate = DateTime.Now,
                 TagsString = this.TagsString

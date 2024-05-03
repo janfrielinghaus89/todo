@@ -57,6 +57,10 @@
     display: block;
 }
 
+.todo-form-group select {
+    width: 100%;
+}
+
 .todo-form-tile h1 {
     font-size: 22px;
 }
@@ -74,17 +78,18 @@
 
 .todo-tile {
     position: relative;
-    background-color: #F3D9DD;
+    background-color: #f0f0f0;
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
-    max-width: 600px;
+    max-width: 1000px;
+    min-width: 90%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.todo-tile:hover {
-    background-color: #FFD9E6;
-}
+    .todo-tile:hover {
+    background-color: #a0a0a0;
+    }
 
 .draggable {
     cursor: move;
@@ -121,10 +126,16 @@
     grid-gap: 10px;
 }
 
+.grid h2 {
+    align-content: center;
+    text-align: center;
+}
+
 .box {
-    background-color: #f0f0f0;
-    width: 100%;
+    background-color: transparent;
+    max-width: 1200px;
     margin: 10px;
+    padding: 20px 40px 20px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +153,28 @@
     transform: translate(-50%, -50%);
     max-width: 50%;
     max-height: 50%;
-    opacity: 0.2;
+    opacity: 0.05;
 }
 
+.todo-detail-header {
+    background-color: #C0C6D2;
+    margin: 3px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.todo-detail-content {
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
 
